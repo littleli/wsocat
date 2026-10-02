@@ -1,0 +1,8 @@
+/dist/
+/bin/
+/external/
+*.exe
+*.test
+*.out
+PLAN.md
+DEVELOPMENT.md
