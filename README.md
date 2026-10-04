@@ -18,8 +18,7 @@ flowchart LR
 
 When a release is available, download `wsocat.exe` from this repository's
 **Releases** page. Put it in a folder you control and run it from there, or add
-that folder to your `PATH` to call `wsocat` from any terminal. The executable
-is portable: no installer, Go runtime, or .NET runtime is needed.
+that folder to your `PATH` to call `wsocat` from any terminal.
 
 Check that it starts with:
 
