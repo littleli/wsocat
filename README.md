@@ -16,9 +16,21 @@ flowchart LR
 
 ### Use a release build
 
-When a release is available, download `wsocat.exe` from this repository's
-**Releases** page. Put it in a folder you control and run it from there, or add
-that folder to your `PATH` to call `wsocat` from any terminal.
+When a release is available, download the executable for your Windows device
+from this repository's **Releases** page:
+
+- `wsocat-amd64.exe` for AMD64 (x64) Windows
+- `wsocat-arm64.exe` for ARM64 Windows
+
+Rename the downloaded file to `wsocat.exe` before use. For example, in
+PowerShell, rename the AMD64 build with:
+
+```powershell
+Rename-Item .\wsocat-amd64.exe wsocat.exe
+```
+
+Put it in a folder you control and run it from there, or add that folder to
+your `PATH` to call `wsocat` from any terminal.
 
 Check that it starts with:
 
