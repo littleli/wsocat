@@ -231,3 +231,7 @@ at once. Press Ctrl+C to stop.
 | `HVSOCK:vm-id:service-id` | Connector | Connect to a Hyper-V socket |
 | `HVSOCK-LISTEN:vm-id:service-id` | Address 1 only | Listen on a Hyper-V socket |
 | `SP:COMx[,baudrate=...][,parity=...][,databits=...][,stopbits=...]` | Either side | Open a Windows serial port |
+
+## License
+
+The wsocat project is licensed under the [Apache License 2.0](LICENSE).
